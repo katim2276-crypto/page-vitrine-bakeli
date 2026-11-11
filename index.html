@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bakeli.tech - Formations en bureautique, développement web, mobile et numérique au Sénégal.">
+  <title>Bakeli.tech - Centres de formation au Sénégal</title>
+
+  <!-- Bootstrap 5 + Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <!-- Police -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Mon CSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <span class="logo-icone"><i class="bi bi-mortarboard-fill"></i></span>
+        <span class="fw-bold">Bakeli<span class="texte-accent">.tech</span></span>
+      </a>
+
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Ouvrir le menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav mx-auto gap-lg-2">
+          <li class="nav-item"><a class="nav-link" href="#formations">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="#centres">Centres</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pourquoi">Pourquoi nous</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <div class="d-flex gap-2 mt-3 mt-lg-0">
+          <a href="#contact" class="btn btn-outline-secondary fw-semibold px-3">Se connecter</a>
+          <a href="#inscription" class="btn btn-nuit fw-semibold px-3">S'inscrire</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ================= HERO ================= -->
+  <header class="hero py-5">
+    <div class="container py-lg-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge-petit mb-3"><i class="bi bi-stars"></i> Inscriptions ouvertes</span>
+          <h1 class="hero-titre fw-bold">
+            Découvrez nos <span class="texte-accent">centres de formation</span> Bakeli.tech
+          </h1>
+          <p class="lead text-secondary my-4">
+            Bureautique, développement web, développement mobile, design et bien plus.
+            Apprenez un métier du numérique avec des formateurs expérimentés, partout au Sénégal.
+          </p>
+
+          <div class="row g-3">
+            <div class="col-4 d-flex align-items-center gap-2">
+              <span class="stat-icone bg-vert"><i class="bi bi-people"></i></span>
+              <div><strong>2 000+</strong><br><small class="text-secondary">Apprenants</small></div>
+            </div>
+            <div class="col-4 d-flex align-items-center gap-2">
+              <span class="stat-icone bg-bleu"><i class="bi bi-journal-code"></i></span>
+              <div><strong>6+</strong><br><small class="text-secondary">Formations</small></div>
+            </div>
+            <div class="col-4 d-flex align-items-center gap-2">
+              <span class="stat-icone bg-violet"><i class="bi bi-award"></i></span>
+              <div><strong>100%</strong><br><small class="text-secondary">Pratique</small></div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="#formations" class="btn btn-nuit btn-lg px-4">Voir les formations</a>
+            <a href="#centres" class="btn btn-outline-dark btn-lg px-4">Nos centres</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="hero-image-box">
+            <span class="badge-enligne shadow"><span class="point-vert"></span> Cours en ligne et en présentiel</span>
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80"
+                 class="hero-image" alt="Apprenants en formation">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= FORMATIONS ================= -->
+  <section id="formations" class="py-5">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="sous-titre">Nos formations</span>
+        <h2 class="fw-bold mt-2">Choisissez votre parcours</h2>
+        <p class="text-secondary">Des formations pratiques pour tous les niveaux, du débutant au professionnel.</p>
+      </div>
+
+      <div class="row g-4">
+        <!-- Bureautique -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-vert"><i class="bi bi-file-earmark-word"></i></span>
+              <h5 class="fw-semibold mt-3">Bureautique</h5>
+              <p class="text-secondary small">Word, Excel, PowerPoint, Internet et emails professionnels.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 1 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Débutant</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+        <!-- Développement Web -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-bleu"><i class="bi bi-code-slash"></i></span>
+              <h5 class="fw-semibold mt-3">Développement Web</h5>
+              <p class="text-secondary small">HTML, CSS, Bootstrap, JavaScript, PHP et bases de données.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 6 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Tous niveaux</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+        <!-- Développement Mobile -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-violet"><i class="bi bi-phone"></i></span>
+              <h5 class="fw-semibold mt-3">Développement Mobile</h5>
+              <p class="text-secondary small">Créez des applications Android et iOS avec Flutter et React Native.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 6 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Intermédiaire</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+        <!-- Design graphique -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-orange"><i class="bi bi-palette"></i></span>
+              <h5 class="fw-semibold mt-3">Design graphique</h5>
+              <p class="text-secondary small">Photoshop, Illustrator, Canva et Figma pour créer des visuels pros.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 3 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Débutant</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+        <!-- Marketing digital -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-rose"><i class="bi bi-megaphone"></i></span>
+              <h5 class="fw-semibold mt-3">Marketing digital</h5>
+              <p class="text-secondary small">Réseaux sociaux, publicité Facebook, création de contenu et SEO.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 2 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Tous niveaux</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+        <!-- Data & IA -->
+        <div class="col-sm-6 col-lg-4">
+          <div class="card carte h-100">
+            <div class="card-body d-flex flex-column">
+              <span class="formation-icone bg-cyan"><i class="bi bi-cpu"></i></span>
+              <h5 class="fw-semibold mt-3">Data & Intelligence artificielle</h5>
+              <p class="text-secondary small">Python, analyse de données et introduction à l'intelligence artificielle.</p>
+              <ul class="infos-formation">
+                <li><i class="bi bi-clock"></i> 4 mois</li>
+                <li><i class="bi bi-bar-chart"></i> Intermédiaire</li>
+              </ul>
+              <a href="#inscription" class="btn btn-nuit w-100 mt-auto">S'inscrire</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CENTRES AU SÉNÉGAL ================= -->
+  <section id="centres" class="py-5 bg-clair">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="sous-titre">Centres de formation</span>
+        <h2 class="fw-bold mt-2">Les centres du numérique au Sénégal</h2>
+        <p class="text-secondary">Bakeli.tech et d'autres centres reconnus pour apprendre les métiers du digital.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-sm-6 col-lg-3">
+          <div class="card carte carte-centre h-100">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80" class="centre-image" alt="Bakeli.tech">
+            <div class="card-body d-flex flex-column">
+              <h5 class="fw-semibold">Bakeli.tech</h5>
+              <p class="text-secondary small mb-2"><i class="bi bi-geo-alt"></i> Dakar</p>
+              <p class="small">Formations en développement web, mobile, design et bureautique.</p>
+              <a href="https://bakeli.tech" target="_blank" rel="noopener" class="btn btn-nuit w-100 mt-auto">Visiter le site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card carte carte-centre h-100">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=600&q=80" class="centre-image" alt="Sunucode">
+            <div class="card-body d-flex flex-column">
+              <h5 class="fw-semibold">Sunucode</h5>
+              <p class="text-secondary small mb-2"><i class="bi bi-geo-alt"></i> Sénégal</p>
+              <p class="small">Centre d'apprentissage du code et des métiers du numérique.</p>
+              <a href="https://sunucode.com" target="_blank" rel="noopener" class="btn btn-nuit w-100 mt-auto">Visiter le site</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card carte carte-centre h-100">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=80" class="centre-image" alt="Sonatel Academy">
+            <div class="card-body d-flex flex-column">
+              <h5 class="fw-semibold">Sonatel Academy</h5>
+              <p class="text-secondary small mb-2"><i class="bi bi-geo-alt"></i> Dakar</p>
+              <p class="small">École du numérique gratuite pour former les jeunes talents.</p>
+              <a href="#contact" class="btn btn-outline-dark w-100 mt-auto">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="card carte carte-centre h-100">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80" class="centre-image" alt="Simplon Sénégal">
+            <div class="card-body d-flex flex-column">
+              <h5 class="fw-semibold">Simplon Sénégal</h5>
+              <p class="text-secondary small mb-2"><i class="bi bi-geo-alt"></i> Dakar</p>
+              <p class="small">Formations intensives aux métiers du développement.</p>
+              <a href="#contact" class="btn btn-outline-dark w-100 mt-auto">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= POURQUOI NOUS ================= -->
+  <section id="pourquoi" class="py-5">
+    <div class="container py-4">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-5">
+          <span class="sous-titre">Pourquoi Bakeli.tech</span>
+          <h2 class="fw-bold mt-2 mb-3">Une formation qui mène à l'emploi</h2>
+          <p class="text-secondary">Chez Bakeli.tech, on apprend en pratiquant : chaque apprenant réalise de vrais projets pour construire son portfolio et entrer dans la vie professionnelle.</p>
+          <a href="#inscription" class="btn btn-nuit btn-lg px-4 mt-2">Je m'inscris</a>
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-4">
+            <div class="col-sm-6">
+              <div class="card carte h-100 p-4">
+                <i class="bi bi-person-video3 fs-2 texte-accent"></i>
+                <h6 class="fw-semibold mt-2">Formateurs experts</h6>
+                <p class="text-secondary small mb-0">Des professionnels qui travaillent dans le métier.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card carte h-100 p-4">
+                <i class="bi bi-laptop fs-2 texte-accent"></i>
+                <h6 class="fw-semibold mt-2">Projets réels</h6>
+                <p class="text-secondary small mb-0">Apprenez en créant des sites et applications concrètes.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card carte h-100 p-4">
+                <i class="bi bi-patch-check fs-2 texte-accent"></i>
+                <h6 class="fw-semibold mt-2">Certificat</h6>
+                <p class="text-secondary small mb-0">Une attestation remise à la fin de votre formation.</p>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card carte h-100 p-4">
+                <i class="bi bi-briefcase fs-2 texte-accent"></i>
+                <h6 class="fw-semibold mt-2">Accompagnement</h6>
+                <p class="text-secondary small mb-0">Aide pour le stage, le CV et la recherche d'emploi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= INSCRIPTION ================= -->
+  <section id="inscription" class="pb-5">
+    <div class="container">
+      <div class="bloc-nuit text-center text-white p-4 p-md-5">
+        <h2 class="fw-bold">Prêt à lancer votre carrière dans le numérique ?</h2>
+        <p class="opacity-75 mb-4">Rejoignez la prochaine promotion Bakeli.tech. Les places sont limitées.</p>
+        <div class="d-flex justify-content-center flex-wrap gap-3">
+          <a href="#contact" class="btn btn-light btn-lg px-4">Je m'inscris</a>
+          <a href="https://wa.me/221775282057" target="_blank" rel="noopener" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="py-5 bg-clair">
+    <div class="container py-4">
+      <div class="text-center mb-5">
+        <span class="sous-titre">Contact</span>
+        <h2 class="fw-bold mt-2">Parlons de votre formation</h2>
+        <p class="text-secondary">Une question sur nos formations ou les inscriptions ? Écrivez-nous.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-5">
+          <div class="card carte p-3 mb-3 d-flex flex-row align-items-center gap-3">
+            <span class="stat-icone bg-bleu"><i class="bi bi-telephone"></i></span>
+            <div><small class="text-secondary">Téléphone</small><br><a href="tel:+221775282057" class="fw-semibold">77 528 20 57</a></div>
+          </div>
+          <div class="card carte p-3 mb-3 d-flex flex-row align-items-center gap-3">
+            <span class="stat-icone bg-vert"><i class="bi bi-envelope"></i></span>
+            <div class="text-break"><small class="text-secondary">Email</small><br><a href="mailto:katimdev@gmail.com" class="fw-semibold">katimdev@gmail.com</a></div>
+          </div>
+          <div class="card carte p-3 d-flex flex-row align-items-center gap-3">
+            <span class="stat-icone bg-violet"><i class="bi bi-geo-alt"></i></span>
+            <div><small class="text-secondary">Adresse</small><br><strong>Dakar, Sénégal</strong></div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <form class="card carte p-4">
+            <div class="row g-3">
+              <div class="col-md-6"><input type="text" class="form-control" placeholder="Votre nom" required></div>
+              <div class="col-md-6"><input type="tel" class="form-control" placeholder="Votre téléphone" required></div>
+              <div class="col-12">
+                <select class="form-select" required>
+                  <option value="">Choisir une formation</option>
+                  <option>Bureautique</option>
+                  <option>Développement Web</option>
+                  <option>Développement Mobile</option>
+                  <option>Design graphique</option>
+                  <option>Marketing digital</option>
+                  <option>Data & Intelligence artificielle</option>
+                </select>
+              </div>
+              <div class="col-12"><textarea class="form-control" rows="4" placeholder="Votre message"></textarea></div>
+              <div class="col-12"><button type="submit" class="btn btn-nuit w-100">Envoyer ma demande</button></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-md-5">
+          <h5 class="fw-bold"><i class="bi bi-mortarboard-fill"></i> Bakeli.tech</h5>
+          <p class="opacity-75">Formations en bureautique, développement web, mobile et métiers du numérique au Sénégal.</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <h6 class="fw-semibold">Liens</h6>
+          <ul class="list-unstyled opacity-75">
+            <li><a href="#formations">Formations</a></li>
+            <li><a href="#centres">Centres</a></li>
+            <li><a href="#pourquoi">Pourquoi nous</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h6 class="fw-semibold">Contact</h6>
+          <ul class="list-unstyled opacity-75 text-break">
+            <li>77 528 20 57</li>
+            <li>katimdev@gmail.com</li>
+            <li>Dakar, Sénégal</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="opacity-25">
+      <p class="text-center small opacity-50 mb-0">© 2026 Bakeli.tech — Réalisé par Katim Touré (KATIM-DEV).</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
