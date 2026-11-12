@@ -1,17 +1,28 @@
-# Page vitrine - Bakeli.tech
+# Page vitrine - Salon de coiffure « Élégance Coiffure »
 
-Projet de validation du module **Bases du développement web** (Tâche 2).
+Projet de validation du module **Bases du développement web** (Tâche 2, Semaine 1).
 
-Page vitrine responsive réalisée avec **HTML**, **CSS** et **Bootstrap 5**, à partir d'une maquette Figma.
+Page vitrine responsive réalisée avec **HTML**, **CSS** et **Bootstrap 5**.
+
+**Site en ligne :** https://bakelitech.netlify.app/
 
 ## Sections
-- Accueil : présentation des centres de formation
-- Formations : Bureautique, Développement Web, Développement Mobile, Design, Marketing digital, Data & IA
-- Centres de formation au Sénégal
-- Pourquoi nous
-- Inscription et contact
+- Menu de navigation (menu mobile avec Bootstrap)
+- Accueil avec photo et chiffres clés
+- Services : coupe homme, coiffure femme, tresses, coloration, soins, barbe
+- Tarifs homme et femme
+- Galerie photo
+- Équipe
+- Avis clients
+- Prise de rendez-vous (envoi par WhatsApp) et horaires
+- Contact et pied de page
+
+## Technologies
+- HTML5
+- CSS3 (fichier `style.css`)
+- Bootstrap 5.3 et Bootstrap Icons
 
 ## Auteur
 Katim Touré - KATIM-DEV
 
-*Projet d'étude - site non officiel.*
+*Projet d'étude : le salon et les avis sont fictifs.*
